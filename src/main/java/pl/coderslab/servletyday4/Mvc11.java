@@ -19,8 +19,7 @@ public class Mvc11 extends HttpServlet {
             req.setAttribute("userRole", parsedRole);
         }
 
-        getServletContext().getRequestDispatcher("/jsp1.jsp")
+        getServletContext().getRequestDispatcher("/jsp11.jsp")
                 .forward(req, resp);
-
     }
 }

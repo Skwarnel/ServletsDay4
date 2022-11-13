@@ -13,6 +13,6 @@
     <title>My JSP</title>
 </head>
 <body>
-<c:out value="${param.userRole}"/>
+    <c:out value="${userRole}" default="guest"/>
 </body>
 </html>
